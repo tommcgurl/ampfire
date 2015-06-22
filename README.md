@@ -8,3 +8,9 @@ Support for the [ampersand-model](https://github.com/AmpersandJS/ampersand-model
 
 #### Dependencies
 This is dependent on the [ampersand-model](https://github.com/AmpersandJS/ampersand-model) module
+
+## ampfire-collection
+Coming soon..
+
+## Tests
+I want to write tests for the modules and plan on doing that soon.
