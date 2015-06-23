@@ -10,7 +10,8 @@ Support for the [ampersand-model](https://github.com/AmpersandJS/ampersand-model
 This is dependent on the [ampersand-model](https://github.com/AmpersandJS/ampersand-model) module
 
 ## ampfire-collection
-Coming soon..
+Support for the [ampersand-rest-collection](https://github.com/ampersandjs/ampersand-rest-collection) module.
+- The [ampersand-collection](https://github.com/ampersandjs/ampersand-collection) with the [ampersand-collection-rest-mixin](https://github.com/ampersandjs/ampersand-collection-rest-mixin) if the lodash functions aren't needed.
 
 ## Tests
 I want to write tests for the modules and plan on doing that soon.
