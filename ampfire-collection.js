@@ -3,13 +3,12 @@
  * made to support AmpersandJS Collections (https://github.com/AmpersandJS/ampersand-collection)
  * rather than backbone collections
  */
- var Collection = require('ampersand-collection');
-var restMixin = require('ampersand-collection-rest-mixin');
+var Collection = require('ampersand-rest-collection');
 
 // var Ampersand = require('Ampersand');
 
 var Ampersand = {
-  Collection: Collection.extend(restMixin)
+  Collection: Collection
 };
 
 var Ampfire = {};
@@ -705,4 +704,3 @@ Ampfire.Collection = Ampersand.Collection.extend({
   }
 });
 module.exports = Ampfire.Collection;
-
