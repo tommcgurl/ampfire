@@ -4,6 +4,7 @@
  * rather than backbone collections
  */
 
+'use strict';
 // lodash functions
 var _ = {
   extend: require('lodash/object/extend'),
@@ -19,7 +20,8 @@ var _ = {
   find: require('lodash/collection/find'),
   difference: require('lodash/array/difference'),
   union: require('lodash/array/union')
-}
+};
+
 var Collection = require('ampersand-rest-collection');
 
 // var Ampersand = require('Ampersand');
