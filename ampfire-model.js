@@ -3,18 +3,32 @@
  * made to support AmpersandJS Models (https://github.com/AmpersandJS/ampersand-model)
  * rather than backbone models
  */
+'use strict';
+
+//Lodash functions
+var _ = {
+  extend: require('lodash/object/extend'),
+  keys: require('lodash/object/keys'),
+  defaults: require('lodash/object/defaults'),
+  result: require('lodash/object/result'),
+  isObject: require('lodash/lang/isObject'),
+  isFunction: require('lodash/lang/isFunction'),
+  difference: require('lodash/array/difference'),
+  bind: require('lodash/function/bind'),
+  each: require('lodash/collection/each')
+};
 var Model = require('ampersand-model');
 
 var Ampersand = {
   Model: Model
 };
-Ampfire = {};
+var Ampfire = {};
 
 /**
  * A utility for retrieving the key name of a Firebase ref or
  * DataSnapshot. This is backwards-compatible with `name()`
  * from Firebase 1.x.x and `key()` from Firebase 2.0.0+. Once
- * support for Firebase 1.x.x is dropped , this
+ * support for Firebase 1.x.x is dropped in BackboneFire, this
  * helper can be removed.
  */
 Ampfire._getKey = function(refOrSnapshot) {
@@ -403,7 +417,7 @@ Ampfire.Model = Ampersand.Model.extend({
     var modelObj = model.changedAttributes();
     _.each(model.changed, function(value, key) {
       if (typeof value === 'undefined' || value === null) {
-        if (key == 'id') {
+        if (key === 'id') {
           delete modelObj[key];
         } else {
           modelObj[key] = null;
