@@ -16,5 +16,5 @@
     "lodash": "^3.9.3"
   },
   "license": "MIT",
-  "main": "ampersand-collection.js",
+  "main": "ampersand-collection.js"
 }
