@@ -9,7 +9,9 @@
     "url": "https://github.com/tommcgurl/ampfire/issues"
   },
   "files": [
-    "ampfire-collection.js"
+    "ampfire-collection.js",
+    "BackboneFireLICENSE",
+    "LICENSE"
   ],
   "dependencies": {
     "ampersand-rest-collection": "^4.0.0",

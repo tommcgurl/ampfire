@@ -11,7 +11,7 @@ This is dependent on the [ampersand-model](https://github.com/AmpersandJS/ampers
 
 ## ampfire-collection
 Support for the [ampersand-rest-collection](https://github.com/ampersandjs/ampersand-rest-collection) module.
-- The [ampersand-collection](https://github.com/ampersandjs/ampersand-collection) with the [ampersand-collection-rest-mixin](https://github.com/ampersandjs/ampersand-collection-rest-mixin) if the lodash functions aren't needed.
+- The [ampersand-collection](https://github.com/ampersandjs/ampersand-collection) with the [ampersand-collection-rest-mixin](https://github.com/ampersandjs/ampersand-collection-rest-mixin) can be used if the lodash functions aren't needed.
 
 #### Dependencies
 This is dependent on the [ampersand-rest-collection](https://github.com/AmpersandJS/ampersand-rest-collection) module
