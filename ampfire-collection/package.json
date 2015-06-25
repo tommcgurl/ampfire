@@ -22,7 +22,9 @@
   "files": [
     "ampfire-collection.js",
     "BackboneFireLICENSE",
-    "LICENSE"
+    "LICENSE",
+    "README.md",
+    "package.json"
   ],
   "dependencies": {
     "ampersand-rest-collection": "^4.0.0",
