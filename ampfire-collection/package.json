@@ -1,13 +1,24 @@
 {
   "name": "ampfire-collection",
-  "version": "0.1.0",
+  "description": "Unofficial AmpersandJS Collection binding for Firebase",
+  "version": "0.1.1",
   "author": {
     "name": "Tom McGurl",
     "email": "Tom.McGurl@gmail.com"
   },
+  "homepage": "https://github.com/tommcgurl/ampfire",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommcgurl/ampfire.git"
+  },
   "bugs": {
     "url": "https://github.com/tommcgurl/ampfire/issues"
   },
+  "keywords": [
+    "ampersand",
+    "firebase",
+    "realtime"
+  ],
   "files": [
     "ampfire-collection.js",
     "BackboneFireLICENSE",
