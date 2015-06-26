@@ -33,5 +33,4 @@
   },
   "license": "MIT",
   "main": "ampfire-model.js"
-  "main": "ampersand-model.js",
 }
