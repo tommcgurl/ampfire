@@ -31,5 +31,9 @@
     "lodash": "^3.9.3"
   },
   "license": "MIT",
-  "main": "ampfire-collection.js"
+  "main": "ampfire-collection.js",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
 }
