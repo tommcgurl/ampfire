@@ -1,7 +1,7 @@
 {
   "name": "ampfire-collection",
   "description": "Unofficial AmpersandJS Collection binding for Firebase",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Tom McGurl",
     "email": "Tom.McGurl@gmail.com"
