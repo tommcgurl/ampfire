@@ -327,10 +327,7 @@ var OnceModel = (function() {
 }());
 
 Ampfire.Model = Ampersand.Model.extend({
-  /*
-   * We should allow extra properties by default since we don't
-   * always know our firebase object's properties in advance
-   */
+
   extraProperties: 'allow',
   // Determine whether the realtime or once methods apply
   constructor: function(model, options) {

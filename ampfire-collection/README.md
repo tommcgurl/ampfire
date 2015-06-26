@@ -72,8 +72,5 @@ Coming soon...
 ## Demo
 Coming soon...
 
-## Credits
-This is all just a modification of the amazing work the [Firebase](https://github.com/firebase) team did on [BackboneFire](https://github.com/firebase/backbonefire). It uses the awesome [AmpersandJS Framework](http://ampersandjs.com/) from the guys over at [&yet](https://github.com/andyet).
-
 ## Licence
 MIT
