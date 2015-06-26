@@ -1,14 +1,30 @@
 {
   "name": "ampfire-model",
+  "description": "Unofficial AmpersandJS Model binding for Firebase",
   "version": "0.1.0",
   "author": {
     "name": "Tom McGurl",
     "email": "Tom.McGurl@gmail.com"
   },
+  "homepage": "https://github.com/tommcgurl/ampfire",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommcgurl/ampfire.git"
+  },
   "bugs": {
     "url": "https://github.com/tommcgurl/ampfire/issues"
   },
+  "keywords": [
+    "ampersand",
+    "firebase",
+    "realtime"
+  ],
   "files": [
+    "ampfire-model.js",
+    "BackboneFireLICENSE",
+    "LICENSE",
+    "README.md",
+    "package.json"
     "ampfire-model.js"
   ],
   "dependencies": {
@@ -16,5 +32,6 @@
     "lodash": "^3.9.3"
   },
   "license": "MIT",
+  "main": "ampfire-model.js"
   "main": "ampersand-model.js",
 }
