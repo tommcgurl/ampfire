@@ -1,5 +1,4 @@
-@@ -1,57 +0,0 @@
-# AmpFire-Collection
+# AmpFire-Model
 A modified, CommonJS version of Firebase's [BackboneFire](https://github.com/firebase/backbonefire) for [AmpersandJS](http://ampersandjs.com/) Models.
 
 ## Installation
