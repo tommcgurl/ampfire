@@ -3,6 +3,11 @@ A modified, CommonJS version of Firebase's [BackboneFire](https://github.com/fir
 
 It's broken into two modules, [ampfire-model](#ampfire-model) and ampfire-collection. Since one of the great things about AmpersandJS is its modularity, I felt this library should be modular as well.
 
+## Usage
+Check out the individual README files for the collection and model
+- [Ampfire-Collection](https://github.com/tommcgurl/ampfire/tree/master/ampfire-collection)
+- [Ampfire-Model](https://github.com/tommcgurl/ampfire/tree/master/ampfire-model)
+
 ## ampfire-model
 Support for the [ampersand-model](https://github.com/AmpersandJS/ampersand-model) module.
 
