@@ -1,7 +1,10 @@
+/*
+ * Tests based off the original BackboneFire test specs
+ */ 
 var mocha = require('mocha'),
   expect = require('chai').expect,
   AmpfireCollection = require('../ampfire-collection'),
-  Firebase = require('client-firebase');
+  Firebase = require('firebase');
 
 describe('ampfire-collection', function() {
   it('should exist', function() {
@@ -22,4 +25,16 @@ describe('ampfire-collection', function() {
     });
     return expect(new Collection()).to.be.ok;
   });
+
+  it('should throw an error if an invalid url is provided', function() {
+     var Collection = AmpfireCollection.extend({
+       url: true
+     });
+     try {
+       var model = new Collection();
+     } catch (err) {
+       expect(err.message).to.be.equal('url parameter required');
+     }
+   });
+
 });

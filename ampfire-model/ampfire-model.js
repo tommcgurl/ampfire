@@ -7,17 +7,18 @@
 
 //Lodash functions
 var _ = {
-  extend: require('lodash/object/extend'),
-  keys: require('lodash/object/keys'),
-  defaults: require('lodash/object/defaults'),
-  result: require('lodash/object/result'),
-  isObject: require('lodash/lang/isObject'),
-  isFunction: require('lodash/lang/isFunction'),
-  difference: require('lodash/array/difference'),
-  bind: require('lodash/function/bind'),
-  each: require('lodash/collection/each')
-};
-var Model = require('ampersand-model');
+    extend: require('lodash/object/extend'),
+    keys: require('lodash/object/keys'),
+    defaults: require('lodash/object/defaults'),
+    result: require('lodash/object/result'),
+    isObject: require('lodash/lang/isObject'),
+    isFunction: require('lodash/lang/isFunction'),
+    difference: require('lodash/array/difference'),
+    bind: require('lodash/function/bind'),
+    each: require('lodash/collection/each')
+  },
+  Firebase = require('client-firebase'),
+  Model = require('ampersand-model');
 
 var Ampersand = {
   Model: Model

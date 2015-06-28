@@ -29,6 +29,7 @@
   ],
   "dependencies": {
     "ampersand-model": "^5.0.3",
+    "firebase": "^2.2.7",
     "lodash": "^3.9.3"
   },
   "license": "MIT",

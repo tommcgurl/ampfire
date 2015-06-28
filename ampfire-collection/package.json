@@ -1,7 +1,7 @@
 {
   "name": "ampfire-collection",
   "description": "Unofficial AmpersandJS Collection binding for Firebase",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": {
     "name": "Tom McGurl",
     "email": "Tom.McGurl@gmail.com"
@@ -28,13 +28,13 @@
   ],
   "dependencies": {
     "ampersand-rest-collection": "^4.0.0",
+    "firebase": "^2.2.7",
     "lodash": "^3.9.3"
   },
   "license": "MIT",
   "main": "ampfire-collection.js",
   "devDependencies": {
     "chai": "^3.0.0",
-    "client-firebase": "^1.0.1",
     "mocha": "^2.2.5"
   },
   "scripts": {

@@ -7,22 +7,22 @@
 'use strict';
 // lodash functions
 var _ = {
-  extend: require('lodash/object/extend'),
-  keys: require('lodash/object/keys'),
-  has: require('lodash/object/has'),
-  isObject: require('lodash/lang/isObject'),
-  isFunction: require('lodash/lang/isFunction'),
-  isArray: require('lodash/lang/isArray'),
-  clone: require('lodash/lang/clone'),
-  bind: require('lodash/function/bind'),
-  defer: require('lodash/function/defer'),
-  each: require('lodash/collection/each'),
-  find: require('lodash/collection/find'),
-  difference: require('lodash/array/difference'),
-  union: require('lodash/array/union')
-};
-
-var Collection = require('ampersand-rest-collection');
+    extend: require('lodash/object/extend'),
+    keys: require('lodash/object/keys'),
+    has: require('lodash/object/has'),
+    isObject: require('lodash/lang/isObject'),
+    isFunction: require('lodash/lang/isFunction'),
+    isArray: require('lodash/lang/isArray'),
+    clone: require('lodash/lang/clone'),
+    bind: require('lodash/function/bind'),
+    defer: require('lodash/function/defer'),
+    each: require('lodash/collection/each'),
+    find: require('lodash/collection/find'),
+    difference: require('lodash/array/difference'),
+    union: require('lodash/array/union')
+  },
+  Firebase = require('firebase'),
+  Collection = require('ampersand-rest-collection');
 
 // var Ampersand = require('Ampersand');
 
